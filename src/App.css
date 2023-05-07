@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container1 h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  color: #202020;
+  text-align: center;
+}
+.container1 {
+  align-items: center;
+
+  text-align: center;
+  width: 100%;
+}
+.container1 h5 {
+  text-align: center;
+  font-size: 16px;
+  max-width: 60rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  color: gray;
+}
+#divider {
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-bottom: 2px solid blue;
+}
+/* *********************************************** */
+.container2 {
+  margin-top: 4rem;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+@media (max-width: 1001px) {
+  .box1 {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.first1 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* margin-left: 3rem;
+
+  margin-right: 2rem; */
+  margin: 1rem;
+  background-color: #f4f5f8;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.first1 h4 {
+  max-width: 20rem;
+  padding: 5rem 0rem 0rem 2rem;
+  letter-spacing: 1px;
+  font-size: 26px;
+  font-family: inherit;
+}
+.first1 h5 {
+  max-width: 650px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 5rem 2rem;
+  /* align-items: center; */
+  color: #202020;
+  opacity: 0.9;
+}
+
+.first2 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* margin-left: 3rem;
+
+  margin-right: 2rem; */
+  margin: 1rem;
+  background-color: #f4f5f8;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.first2 h4 {
+  max-width: 20rem;
+  padding: 5rem 0rem 0rem 2rem;
+  letter-spacing: 0.1px;
+  font-size: 25px;
+  font-family: inherit;
+  text-align: center;
+}
+.first2 h5 {
+  max-width: 650px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 5rem 2rem;
+  align-items: center;
+  color: #202020;
+  opacity: 0.9;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.first3 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* margin-left: 3rem;
+
+  margin-right: 2rem; */
+  margin: 1rem;
+  background-color: #f4f5f8;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.first3 h4 {
+  max-width: 20rem;
+  padding: 5rem 0rem 0rem 2rem;
+  letter-spacing: 0.1px;
+  font-size: 25px;
+  font-family: inherit;
+  text-align: left;
+}
+.first3 h5 {
+  max-width: 650px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 5rem 2rem;
+  align-items: center;
+  color: #202020;
+  opacity: 0.9;
+}
+.first4 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* margin-left: 3rem;
+
+  margin-right: 2rem; */
+  margin: 1rem;
+  background-color: #f4f5f8;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.first4 h4 {
+  max-width: 20rem;
+  padding: 5rem 0rem 0rem 2rem;
+  letter-spacing: 0.1px;
+  font-size: 25px;
+  font-family: inherit;
+  /* text-align: center; */
+}
+.first4 h5 {
+  max-width: 650px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 5rem 2rem;
+  align-items: center;
+  color: #202020;
+  opacity: 0.9;
+}
+/* ************************************************************************************/
+.container3 {
+  margin-top: 5rem;
+  background-color: hsl(0, 0%, 9%);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.container3 h3 {
+  font-size: 40px;
+  color: white;
+  /* padding: 3rem; */
+}
+.container3 h5 {
+  font-size: 20px;
+  color: gray;
+  width: 430px;
+}
+/* ************************************** */
+.container4 {
+  background-color: #085881;
+  display: flex;
+}
+.leftcontainer4 {
+  width: 60%;
+}
+.leftcontainer4 h3 {
+  font-size: 30px;
+  max-width: 424px;
+  color: white;
+  padding: 6rem 0rem 0rem 5rem;
+}
+.leftcontainer4 h4 {
+  font-size: 18px;
+  max-width: 900px;
+  color: #ffffff;
+  padding: 2rem 0rem 5rem 5rem;
+}
+.rightcontainer4 {
+  background-color: aqua;
+  width: 40%;
+}
